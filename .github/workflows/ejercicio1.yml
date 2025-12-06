@@ -1,7 +1,10 @@
 name: Ejercicio 1
+
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+
 jobs:
   hello:
     runs-on: ubuntu-latest
