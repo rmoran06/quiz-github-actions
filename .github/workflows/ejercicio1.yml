@@ -11,4 +11,4 @@ jobs:
       - name: Imprimir fecha y hora
         run: date
       - name: Imprimir sistema operativo
-        run: echo "Sistema operativo: $RUNNER_OS"
+        run: echo "Sistema operativo: ${{ runner.os }}"
