@@ -36,7 +36,7 @@ jobs:
       - name: Ejecutar tests
         run: npm test
       - name: Imprimir timestamp
-        run: echo "Timestamp: ${{ needs.setup.outputs.timestamp }}"
+        run: echo "Timestamp:${{ needs.setup.outputs.timestamp }}"
 
   deploy:
     needs: test
